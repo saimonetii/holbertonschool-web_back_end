@@ -1,0 +1,2 @@
+// Elimina de la base de datos todos los documentos que tengan el nombre "Holberton school"
+db.school.deleteMany({ "name": "Holberton school" })
