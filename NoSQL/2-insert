@@ -1,1 +1,2 @@
+// Inserta un nuevo documento en la colección "school" con el atributo name
 db.school.insert({ "name": "Holberton school" })
