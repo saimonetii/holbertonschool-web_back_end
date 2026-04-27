@@ -1,0 +1,5 @@
+// Actualiza múltiples documentos añadiendo un nuevo atributo "address" usando $set
+db.school.updateMany(
+    { "name": "Holberton school" },
+    { $set: { "address": "972 Mission street" } }
+)
