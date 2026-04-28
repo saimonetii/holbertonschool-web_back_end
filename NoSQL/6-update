@@ -1,1 +1,2 @@
+// Agrega el atributo address a todos los documentos con name="Holberton school"
 db.school.update({ "name": "Holberton school" }, { $set: { "address": "972 Mission street" } }, { multi: true })
